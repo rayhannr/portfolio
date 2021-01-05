@@ -1,7 +1,7 @@
-import Game from './Game/Game'
+import Game from '../Game/Game'
 import Fade from 'react-reveal/Fade'
 
-import { useScroll } from '../hooks/scroll-hook'
+import { useScroll } from '../../hooks/scroll-hook'
 
 const Hero = () => {
     const scroll = useScroll()

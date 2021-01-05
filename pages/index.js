@@ -1,5 +1,7 @@
 import Head from 'next/head'
-import Hero from '../components/Hero'
+import Hero from '../components/sections/Hero'
+import About from '../components/sections/About'
+import Skill from '../components/sections/Skill'
 
 export default function Home() {
   return (
@@ -9,7 +11,10 @@ export default function Home() {
         <link rel="icon" href="/R.png" />
       </Head>
       <Hero />
-      <div className="h-screen"></div>
+      <div className="content">
+        <About />
+        <Skill />
+      </div>
     </>
   )
 }

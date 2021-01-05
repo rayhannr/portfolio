@@ -11219,7 +11219,7 @@ video {
 }
 
 .font-architect {
-  font-family: Architects Daughter;
+  font-family: Architects Daughter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 .font-thin {
@@ -41953,7 +41953,7 @@ video {
   }
 
   .sm\:font-architect {
-    font-family: Architects Daughter;
+    font-family: Architects Daughter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   }
 
   .sm\:font-thin {
@@ -72609,7 +72609,7 @@ video {
   }
 
   .md\:font-architect {
-    font-family: Architects Daughter;
+    font-family: Architects Daughter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   }
 
   .md\:font-thin {
@@ -103265,7 +103265,7 @@ video {
   }
 
   .lg\:font-architect {
-    font-family: Architects Daughter;
+    font-family: Architects Daughter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   }
 
   .lg\:font-thin {
@@ -133921,7 +133921,7 @@ video {
   }
 
   .xl\:font-architect {
-    font-family: Architects Daughter;
+    font-family: Architects Daughter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   }
 
   .xl\:font-thin {
@@ -164577,7 +164577,7 @@ video {
   }
 
   .\32xl\:font-architect {
-    font-family: Architects Daughter;
+    font-family: Architects Daughter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   }
 
   .\32xl\:font-thin {
