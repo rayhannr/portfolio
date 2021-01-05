@@ -178,7 +178,7 @@ const Game = () => {
 
   return (
     <div className="relative px-3 py-5">
-      <p className="font-medium text-center text-sm w-3/5 lg:w-full mx-auto">Tic-Tac-Toe game you can try it your own.</p>
+      <p className="font-medium text-center w-4/5 lg:w-full mx-auto font-architect">Tic-Tac-Toe game you can try it your own.</p>
       <Board
         circleTurn={circleTurn}
         xScore={xScore}

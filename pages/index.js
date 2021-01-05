@@ -9,6 +9,7 @@ export default function Home() {
         <link rel="icon" href="/R.png" />
       </Head>
       <Hero />
+      <div className="h-screen"></div>
     </>
   )
 }

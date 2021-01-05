@@ -1,3 +1,2 @@
-module.exports = {
-    experimental: {css: true}
-}
+const withImages = require('next-images')
+module.exports = withImages()

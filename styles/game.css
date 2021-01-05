@@ -91,7 +91,7 @@
 .board.o .cell:not(.x):not(.o):hover::after {
   width: calc(var(--markSize) * 0.7);
   height: calc(var(--markSize) * 0.7);
-  background-color: white;
+  background-color: var(--backgroundColor);
 }
 
 *,
@@ -105,9 +105,10 @@
   border: 1px solid var(--contentColor);
   color: var(--backgroundColor);
   font-size: 12px;
+  font-family: Architects Daughter, sans-serif;
   border-radius: 20px;
   text-align: center;
-  padding: 3px 5px;
+  padding: 4px 10px;
   margin-right: 4px;
 }
 
@@ -118,9 +119,9 @@
 .buttons button:hover,
 .buttons button:focus,
 .buttons button:active {
-  background-color: var(--backgroundColor);
-  border-color: var(--backgroundColor);
-  color: var(--contentCoolor);
+  background-color: rgb(31, 41, 55);
+  border-color: rgb(31, 41, 55);
+  color: var(--backgroundColor);
   outline: none;
   cursor: pointer;
 }
@@ -138,6 +139,7 @@
 
 .winning-message button {
   font-size: 12px;
+  font-family: Architects Daughter;
   background-color: var(--contentColor);
   color: var(--backgroundColor);
   border: 1px solid var(--contentColor);
@@ -148,7 +150,11 @@
 }
 
 .winning-message button:hover {
-  background-color: var(--backgroundColor);
-  border-color: var(--backgroundColor);
-  color: var(--contentCoolor);
+  background-color: rgb(31, 41, 55);
+  border-color: rgb(31, 41, 55);
+  color: var(--backgroundColor);
+}
+
+.hero{
+  background-image: url('../public/bg.jpg');
 }

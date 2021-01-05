@@ -2,7 +2,7 @@
       --cellSize: 36px;
       --markSize: calc(var(--cellSize) * .9);
       --backgroundColor: #f3f4f6;
-      --winningMessageColor: rgba(241, 243, 255, .6);
+      --winningMessageColor: rgba(221, 239, 235, .9);
       --contentColor: #111827;
-      --hoverColor: #d1d5db;
+      --hoverColor: rgb(107, 114, 148);
   }
