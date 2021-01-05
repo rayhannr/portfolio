@@ -1,0 +1,8 @@
+  :root{
+      --cellSize: 36px;
+      --markSize: calc(var(--cellSize) * .9);
+      --backgroundColor: #f3f4f6;
+      --winningMessageColor: rgba(241, 243, 255, .6);
+      --contentColor: #111827;
+      --hoverColor: #d1d5db;
+  }
