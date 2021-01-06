@@ -1,6 +1,6 @@
-import Title from '../Title'
 import Fade from 'react-reveal/Fade'
 
+import Title from '../Title'
 import Skillset from '../Skillset'
 import Tail from '../SVG/Tail'
 import Python from '../SVG/Python'
@@ -22,7 +22,7 @@ const Skill = () => (
         <Fade duration={500} distance="30px" bottom>
             <Title>Skills</Title>
         </Fade>
-        <div className="lg:max-w-7xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-4 gap-x-8 lg:gap-x-6 mt-5">
+        <div className="lg:max-w-7xl lg:mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-4 gap-x-8 lg:gap-x-6 mt-5">
             <Skillset delay={100} title="Actively used">
                 <React />
                 <Tail />

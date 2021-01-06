@@ -17,24 +17,24 @@ const About = () => (
             
             <ul className="mt-3 ml-4 text-gray-600 tracking-wide">
                 <Fade duration={500} delay={100} distance="30px" bottom>
-                    <li className="list-disc lg:text-justify">
+                    <li className="list-disc lg:text-justify tracking-wide">
                         💼 Right now, I’m working as a frontend developer in a new startup in my hometown, but still open for a better opportunity to work with and learn from more professional and skillful developers.
                     </li>
                 </Fade>
                 <Fade duration={500} delay={200} distance="30px" bottom>
-                    <li className="list-disc lg:text-justify mt-3">
+                    <li className="list-disc lg:text-justify tracking-wide mt-3">
                         💻 I'm working as a freelance Python programmer as well to help non-IT students who conduct
                         researches in data science but unable to code.
                     </li>
                 </Fade>
                 <Fade duration={500} delay={300} distance="30px" bottom>
-                    <li className="list-disc lg:text-justify mt-3">
+                    <li className="list-disc lg:text-justify tracking-wide mt-3">
                         📰 Currently, I'm conducting a research on NLP about author obfuscation in order to complete my coursework
                         at Computer Science.
                     </li>
                 </Fade>
                 <Fade duration={500} delay={400} distance="30px" bottom>
-                    <li className="list-disc lg:text-justify mt-3">
+                    <li className="list-disc lg:text-justify tracking-wide mt-3">
                         🖌 Before diving into frontend development, I was familiar with designing using Adobe Photoshop and a little bit of Adobe XD.
                     </li>
                 </Fade>
@@ -53,7 +53,7 @@ const About = () => (
 
                 <Button
                     link="https://drive.google.com/drive/folders/1usHryLtaQ9slPXANH_drMIiN9RH-mEWR?usp=sharing"
-                    color="bg-gray-200 text-gray-900 hover:bg-gray-300"
+                    color="bg-gray-100 text-gray-900 hover:bg-gray-200"
                     className="mt-4 mx-auto"
                 >
                     Design Portfolio
