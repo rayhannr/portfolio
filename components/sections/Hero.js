@@ -9,7 +9,7 @@ const Hero = () => {
 
     return (
         <div
-            className="hero px-8 pb-12 pt-36 md:pt-28 lg:pt-24 md:px-16"
+            className="hero px-8 pb-12 pt-36 md:pt-28 lg:pt-24 md:px-16 lg:px-24 xl:px-32"
             style={{
                 backgroundPositionX: 'center',
                 backgroundPositionY: 'bottom',

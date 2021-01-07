@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
+
+.section{
+    @apply p-8 md:pt-14 md:px-16 lg:px-24 xl:px-32
+}
 @tailwind utilities;

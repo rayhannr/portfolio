@@ -19,7 +19,7 @@ import Typescript from '../SVG/Typescript'
 import Next from '../SVG/Next'
 
 const Skill = () => (
-    <div className="p-8 pt-4 md:pt-10 md:px-16">
+    <div className="p-8 md:pt-14 md:px-16 lg:px-24 xl:px-32">
         <Fade duration={500} distance="30px" fraction={0.4} bottom>
             <Title>Skills</Title>
         </Fade>

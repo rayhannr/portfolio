@@ -6,8 +6,8 @@ import ProjectLink from './ProjectLink'
 
 const Project = props => (
     <Fade duration={500} distance="30px" fraction={0.4} delay={100} bottom>
-        <div className="mx-auto grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-8 mt-10 md:mt-16 lg:mt-20 lg:max-w-5xl">
-            <div className={`max-w-xs md:max-w-sm lg:max-w-lg ${props.isReversed ? 'md:order-2' : 'md:order-1'}`}>
+        <div className="mx-auto grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-10 mt-10 md:mt-16 lg:mt-20 lg:max-w-5xl">
+            <div className={`max-w-xs md:max-w-smd lg:max-w-lg ${props.isReversed ? 'md:order-2' : 'md:order-1'}`}>
                 <div className="shadow-xl rounded-lg">
                     <Image
                         src={`/projects/${props.image}`}

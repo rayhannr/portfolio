@@ -23,6 +23,9 @@ module.exports = {
           '"Segoe UI Emoji"',
           '"Segoe UI Symbol"',
           '"Noto Color Emoji"']
+      },
+      maxWidth: {
+        'smd': '26rem'
       }
     },
   },

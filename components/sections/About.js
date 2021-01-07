@@ -4,7 +4,7 @@ import Title from '../Title'
 import Button from '../ButtonLink'
 
 const About = () => (
-    <div className="p-8 pt-4 md:pt-10 md:px-16 flex flex-col lg:flex-row lg:items-center">
+    <div className="section flex flex-col lg:flex-row lg:items-center">
         <div className="lg:w-3/5">
             <Fade duration={500} distance="30px" fraction={0.4} bottom>
                 <Title>About me</Title>
