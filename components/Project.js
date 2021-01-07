@@ -1,8 +1,10 @@
 import Image from 'next/image'
 import Badge from './Badge'
+import GithubLink from './GithubLink'
+import ProjectLink from './ProjectLink'
 
 const Project = props => (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-8 mt-10 md:mt-16 lg:mt-20 lg:max-w-5xl lg:mx-auto">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-8 mt-10 md:mt-16 lg:mt-20 lg:max-w-5xl">
         <div className={`max-w-xs md:max-w-sm lg:max-w-lg my-auto ${props.isReversed ? 'md:order-2' : 'md:order-1'}`}>
             <div className="shadow-xl">
                 <Image
@@ -13,6 +15,7 @@ const Project = props => (
                     layout="responsive" />
             </div>
         </div>
+
         <div className={`mt-2 md:mt-0 ${props.isReversed ? 'md:order-1' : 'md:order-2'}`}>
             <h1 className="font-bold text-xl md:text-2xl text-gray-900 tracking-wide">{props.title}</h1>
             <p className="text-gray-600 tracking-wide mt-2">{props.description}</p>
@@ -20,6 +23,10 @@ const Project = props => (
                 {props.tools.map(tool => (
                     <Badge key={tool}>{tool}</Badge>
                 ))}
+            </div>
+            <div className="flex flex-row items-center mt-4">
+                {props.githubLink && <GithubLink link={props.githubLink} />}
+                <ProjectLink link={props.projectLink} />
             </div>
         </div>
     </div>

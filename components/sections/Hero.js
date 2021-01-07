@@ -16,7 +16,7 @@ const Hero = () => {
                 backgroundSize: 'cover'
             }}
         >
-            <div className="flex flex-col lg:flex-row items-center justify-center relative" style={{ bottom: typeof window !== 'undefined' && window.innerWidth >= 1024 ? offset / 3 : 'unset' }}>
+            <div className="lg:max-w-7xl lg:mx-auto flex flex-col lg:flex-row items-center justify-center relative" style={{ bottom: typeof window !== 'undefined' && window.innerWidth >= 1024 ? offset / 3 : 'unset' }}>
                 <Fade duration={500} distance="30px" bottom>
                     <div className="w-full lg:w-3/5 text-center lg:text-left">
                         <h1 className="text-gray-900 text-2xl font-architect font-medium">Hi! I'm</h1>

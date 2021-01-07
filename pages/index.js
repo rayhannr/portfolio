@@ -13,9 +13,11 @@ export default function Home() {
       </Head>
       <Hero />
       <div className="content">
-        <About />
-        <Skill />
-        <Projects />
+        <div className="lg:max-w-7xl lg:mx-auto">
+          <About />
+          <Skill />
+          <Projects />
+        </div>
       </div>
     </>
   )
