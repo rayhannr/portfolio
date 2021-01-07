@@ -7,6 +7,7 @@ import Python from '../SVG/Python'
 import React from '../SVG/React'
 import Github from '../SVG/Github'
 import Netlify from '../SVG/Netlify'
+import Redux from '../SVG/Redux'
 import Vscode from '../SVG/Vscode'
 import Bootstrap from '../SVG/Bootstrap'
 import Sass from '../SVG/Sass'
@@ -19,20 +20,21 @@ import Next from '../SVG/Next'
 
 const Skill = () => (
     <div className="p-8 pt-4 md:pt-10 md:px-16">
-        <Fade duration={500} distance="30px" bottom>
+        <Fade duration={500} distance="30px" fraction={0.4} bottom>
             <Title>Skills</Title>
         </Fade>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-4 gap-x-8 lg:gap-x-6 mt-5">
-            <Skillset delay={100} title="Actively used">
+            <Skillset delay={200} title="Actively used">
                 <React />
                 <Tail />
+                <Redux />
                 <Python />
                 <Vscode />
                 <Github />
                 <Netlify />
             </Skillset>
 
-            <Skillset delay={200} title="Previously used">
+            <Skillset delay={400} title="Previously used">
                 <Bootstrap />
                 <Sass />
                 <Jquery />
@@ -41,7 +43,7 @@ const Skill = () => (
                 <Xd />
             </Skillset>
 
-            <Skillset delay={300} title="Recently learned">
+            <Skillset delay={600} title="Recently learned">
                 <Typescript />
                 <Next />
             </Skillset>
