@@ -1,5 +1,5 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
+Icons taken from [Iconmonstr](http://iconmonstr.com/) and [Iconscout](https://iconscout.com/)
 ## Getting Started
 
 First, run the development server:
