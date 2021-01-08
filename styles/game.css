@@ -41,14 +41,12 @@
 }
 
 .cell.x::before,
-.cell.x::after,
-.cell.o::before {
+.cell.x::after {
   background-color: var(--contentColor);
 }
 
 .board.x .cell:not(.x):not(.o):hover::before,
-.board.x .cell:not(.x):not(.o):hover::after,
-.board.o .cell:not(.x):not(.o):hover::before {
+.board.x .cell:not(.x):not(.o):hover::after {
   background-color: var(--hoverColor);
 }
 
@@ -73,9 +71,7 @@
 }
 
 .cell.o::before,
-.cell.o::after,
-.board.o .cell:not(.x):not(.o):hover::before,
-.board.o .cell:not(.x):not(.o):hover::after {
+.board.o .cell:not(.x):not(.o):hover::before {
   content: "";
   position: absolute;
   border-radius: 50%;
@@ -85,13 +81,12 @@
 .board.o .cell:not(.x):not(.o):hover::before {
   width: var(--markSize);
   height: var(--markSize);
+  background-color: transparent;
+  border: solid calc(var(--markSize) * 0.17) var(--contentColor);
 }
 
-.cell.o::after,
-.board.o .cell:not(.x):not(.o):hover::after {
-  width: calc(var(--markSize) * 0.7);
-  height: calc(var(--markSize) * 0.7);
-  background-color: var(--backgroundColor);
+.board.o .cell:not(.x):not(.o):hover::before{
+  border: solid calc(var(--markSize) * 0.17) var(--hoverColor);
 }
 
 *,

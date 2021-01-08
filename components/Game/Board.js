@@ -1,5 +1,5 @@
 const Board = props => (
-    <main className="w-full h-full flex flex-wrap flex-col items-center justify-center">
+    <main className="w-full h-full flex flex-wrap flex-col items-center justify-center mt-1">
         <div className="flex w-48 justify-between m-2.5">
             <div className="score__item">
                 <p className="font-architect font-semibold">X : {props.xScore}</p>
@@ -11,7 +11,7 @@ const Board = props => (
             </div>
         </div>
 
-        <div className={`board grid justify-center content-center justify-items-center items-center ${props.circleTurn ? 'o' : 'x'}`} style={{ gridTemplateColumns: "repeat(9, auto" }}>
+        <div className={`board grid justify-center content-center justify-items-center items-center mt-4 ${props.circleTurn ? 'o' : 'x'}`} style={{ gridTemplateColumns: "repeat(9, auto" }}>
             {props.children}
         </div>
     </main>
