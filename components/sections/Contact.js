@@ -14,7 +14,7 @@ const Contact = () => (
             <div className="flex flex-col items-start sm:items-center sm:flex-row sm:justify-between">
                 <div className="mt-3 sm:mt-5">
                     <p className="text-gray-900 font-medium tracking-wide">Email</p>
-                    <p className="text-gray-600 tracking-wide">rayhannr@gmail.com</p>
+                    <p className="text-gray-600 tracking-wide">rayhannr07@gmail.com</p>
                 </div>
                 <div className="mt-5 flex flex-col items-start sm:items-end">
                     <p className="text-gray-900 font-medium tracking-wide mb-2">Social networks</p>
