@@ -612,6 +612,14 @@ svg {
   max-width: 24rem;
 }
 
+.opacity-70 {
+  opacity: 0.7;
+}
+
+.hover\:opacity-100:hover {
+  opacity: 1;
+}
+
 .p-8 {
   padding: 2rem;
 }

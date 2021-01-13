@@ -1,5 +1,5 @@
-import '../tailwind.css'
 import '../styles/globals.css'
+import '../tailwind.css'
 import '../styles/variable.css'
 import '../styles/game.css'
 
