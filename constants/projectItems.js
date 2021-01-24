@@ -33,12 +33,22 @@ export const projectItems = [
         null
     ),
     new ProjectItem(
+        'Summer Course FKG UGM',
+        "Another Wordpress project, this time was from Faculty of Dentistry UGM. It's a static site to display information of summer course event held by Faculty of Dentistry UGM in 2019. Same as the previous project, I only redesigned it using custom CSS and installing plugins.",
+        'May - July 2019',
+        'project6.jpg',
+        ['Wordpress', 'CSS'],
+        false,
+        'https://summercourse.fkg.ugm.ac.id/',
+        null
+    ),
+    new ProjectItem(
         'Tic-Tac-Cok',
         "Tic-tac-toe game rebuilt from a vanilla HTML + CSS + JS project by Kyle Cook of Web Dev Simplified to React with additional features such as dark and light mode, undo one move, restart game, and reset score.",
         'January 2020',
         'project3.jpg',
         ['React', 'CSS'],
-        false,
+        true,
         'https://rayhannr.github.io/tic-tac-cok',
         'https://github.com/rayhannr/tic-tac-cok'
     ),
@@ -48,7 +58,7 @@ export const projectItems = [
         'March - July 2020',
         'project4.jpg',
         ['React', 'Tailwind', 'Redux', 'Rest API','Netlify'],
-        true,
+        false,
         'https://pedulicorona.site',
         'https://github.com/alfanadhya/Supply-Demand-RC19'
     ),
@@ -58,7 +68,7 @@ export const projectItems = [
         'June - August 2020',
         'project5.jpg',
         ['Bootstrap', 'Sass', 'JS', 'CodeIgniter'],
-        false,
+        true,
         'http://periode2.kkn-ppm.id/',
         null
     )
