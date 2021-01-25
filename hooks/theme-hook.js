@@ -9,7 +9,7 @@ const appThemes = {
         backgroundHoverColor: '#1F2937',
         smallTextColor: '#D1D5DB',
         hoverColor: 'rgba(196, 196, 196, 0.774)',
-        winningMessageColor: 'rgba(85, 73, 73, 0.767)'
+        winningMessageColor: 'rgba(54, 52, 66, 0.767)'
     },
     light: {
         backgroundColor: "#f3f4f6",
