@@ -127,7 +127,8 @@ Forms
 2. Remove the margin in Firefox and Safari.
 */
 
-button {
+button,
+input {
   font-family: inherit; /* 1 */
   font-size: 100%; /* 1 */
   line-height: 1.15; /* 1 */
@@ -147,7 +148,8 @@ button { /* 1 */
 Correct the inability to style clickable types in iOS and Safari.
 */
 
-button {
+button,
+[type='button'] {
   -webkit-appearance: button;
 }
 
@@ -309,6 +311,18 @@ body {
  * https://github.com/tailwindcss/tailwindcss/issues/362
  */
 
+input::-moz-placeholder {
+  color: #9ca3af;
+}
+
+input:-ms-input-placeholder {
+  color: #9ca3af;
+}
+
+input::placeholder {
+  color: #9ca3af;
+}
+
 button {
   cursor: pointer;
 }
@@ -338,7 +352,8 @@ a {
  * normalize.css.
  */
 
-button {
+button,
+input {
   padding: 0;
   line-height: inherit;
   color: inherit;
@@ -421,6 +436,10 @@ svg {
 
 .border-content {
   border-color: var(--contentColor);
+}
+
+.hover\:border-content-hover:hover {
+  border-color: var(--contentHoverColor);
 }
 
 .rounded-lg {
@@ -637,6 +656,11 @@ svg {
   opacity: 1;
 }
 
+.focus\:outline-none:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
 .p-8 {
   padding: 2rem;
 }
@@ -685,10 +709,6 @@ svg {
 
 .pt-36 {
   padding-top: 9rem;
-}
-
-.static {
-  position: static;
 }
 
 .absolute {
