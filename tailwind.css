@@ -39,9 +39,26 @@ Sections
 Remove the margin in all browsers.
 */
 
+body {
+  margin: 0;
+}
+
 /**
 Improve consistency of default fonts in all browsers. (https://github.com/sindresorhus/modern-normalize/issues/3)
 */
+
+body {
+  font-family:
+		system-ui,
+		-apple-system, /* Firefox supports this but not yet `system-ui` */
+		'Segoe UI',
+		Roboto,
+		Helvetica,
+		Arial,
+		sans-serif,
+		'Apple Color Emoji',
+		'Segoe UI Emoji';
+}
 
 /*
 Grouping content
@@ -238,6 +255,11 @@ ul {
  * a class directly on the `html` element.
  */
 
+body {
+  font-family: inherit;
+  line-height: inherit;
+}
+
 /**
  * 1. Prevent padding and border from affecting element width.
  *
@@ -381,29 +403,24 @@ svg {
   }
 }
 
-.bg-gray-100 {
-  --tw-bg-opacity: 1;
-  background-color: rgba(243, 244, 246, var(--tw-bg-opacity));
+.bg-content {
+  background-color: var(--contentColor);
 }
 
-.bg-gray-900 {
-  --tw-bg-opacity: 1;
-  background-color: rgba(17, 24, 39, var(--tw-bg-opacity));
+.bg-background {
+  background-color: var(--backgroundColor);
 }
 
-.hover\:bg-gray-200:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgba(229, 231, 235, var(--tw-bg-opacity));
+.hover\:bg-background-hover:hover {
+  background-color: var(--backgroundHoverColor);
 }
 
-.hover\:bg-gray-800:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgba(31, 41, 55, var(--tw-bg-opacity));
+.hover\:bg-content-hover:hover {
+  background-color: var(--contentHoverColor);
 }
 
-.border-gray-900 {
-  --tw-border-opacity: 1;
-  border-color: rgba(17, 24, 39, var(--tw-border-opacity));
+.border-content {
+  border-color: var(--contentColor);
 }
 
 .rounded-lg {
@@ -670,6 +687,10 @@ svg {
   padding-top: 9rem;
 }
 
+.static {
+  position: static;
+}
+
 .absolute {
   position: absolute;
 }
@@ -720,33 +741,37 @@ svg {
   text-align: center;
 }
 
-.text-gray-100 {
-  --tw-text-opacity: 1;
-  color: rgba(243, 244, 246, var(--tw-text-opacity));
-}
-
 .text-gray-400 {
   --tw-text-opacity: 1;
   color: rgba(156, 163, 175, var(--tw-text-opacity));
 }
 
-.text-gray-500 {
-  --tw-text-opacity: 1;
-  color: rgba(107, 114, 128, var(--tw-text-opacity));
+.text-content {
+  color: var(--contentColor);
 }
 
-.text-gray-600 {
-  --tw-text-opacity: 1;
-  color: rgba(75, 85, 99, var(--tw-text-opacity));
+.text-background {
+  color: var(--backgroundColor);
 }
 
-.text-gray-900 {
-  --tw-text-opacity: 1;
-  color: rgba(17, 24, 39, var(--tw-text-opacity));
+.text-small-content {
+  color: var(--smallTextColor);
+}
+
+.hover\:text-background-hover:hover {
+  color: var(--backgroundHoverColor);
+}
+
+.hover\:text-content-hover:hover {
+  color: var(--contentHoverColor);
 }
 
 .tracking-wide {
   letter-spacing: 0.025em;
+}
+
+.visible {
+  visibility: visible;
 }
 
 .w-20 {
@@ -818,6 +843,20 @@ svg {
 .hover\:scale-110:hover {
   --tw-scale-x: 1.1;
   --tw-scale-y: 1.1;
+}
+
+.transition {
+  transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.ease-in {
+  transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
+}
+
+.duration-200 {
+  transition-duration: 200ms;
 }
 
 @-webkit-keyframes spin {

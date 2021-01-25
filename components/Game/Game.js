@@ -178,7 +178,7 @@ const Game = () => {
 
   return (
     <div className="relative px-3 py-5">
-      <p className="font-medium text-center w-4/5 lg:w-full mx-auto font-architect">Tic-Tac-Toe game you can try it your own.</p>
+      <p className="font-medium text-center w-4/5 lg:w-full mx-auto font-architect text-content">Tic-Tac-Toe game you can try it your own.</p>
       <Board
         circleTurn={circleTurn}
         xScore={xScore}
@@ -187,15 +187,15 @@ const Game = () => {
           <div
             key={cell.id}
             id={cell.id}
-            className={`cell flex justify-center items-center relative cursor-pointer border border-solid border-gray-900 ${cell.cellClass}`}
+            className={`cell flex justify-center items-center relative cursor-pointer border border-solid border-content ${cell.cellClass}`}
             onClick={() => handleClick(cell.id)}>
           </div>
         ))}
       </Board>
       <div className="buttons text-center pt-4">
-        <button onClick={undoGame}>Undo</button>
-        <button onClick={restartGame}>Restart</button>
-        <button onClick={resetGame}>Reset</button>
+        <button onClick={undoGame} className="bg-content text-background hover:bg-content-hover hover:text-background-hover">Undo</button>
+        <button onClick={restartGame} className="bg-content text-background hover:bg-content-hover hover:text-background-hover">Restart</button>
+        <button onClick={resetGame} className="bg-content text-background hover:bg-content-hover hover:text-background-hover">Reset</button>
       </div>
       <WinningMessage
         show={showWinningMessage}

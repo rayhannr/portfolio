@@ -26,6 +26,13 @@ module.exports = {
       },
       maxWidth: {
         'smd': '26rem'
+      },
+      colors: {
+        'content': 'var(--contentColor)',
+        'background': 'var(--backgroundColor)',
+        'background-hover': 'var(--backgroundHoverColor)',
+        'content-hover': 'var(--contentHoverColor)',
+        'small-content': 'var(--smallTextColor)'
       }
     },
   },

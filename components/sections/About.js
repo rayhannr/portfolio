@@ -8,14 +8,14 @@ const About = () => (
         <div className="lg:w-3/5">
             <Fade duration={500} distance="30px" fraction={0.4} bottom>
                 <Title>About me</Title>
-                <p className="text-gray-600 mt-5 lg:text-justify tracking-wide">
+                <p className="text-small-content mt-5 lg:text-justify tracking-wide">
                     I am a final year Computer Science student at Gadjah Mada University (UGM) and React.js enthusiast
                     with two years of experience in frontend development. I continuously learn new things about web
                     development and actively build a couple of projects by myself or with other developers.
             </p>
             </Fade>
 
-            <ul className="mt-3 ml-4 text-gray-600 tracking-wide">
+            <ul className="mt-3 ml-4 text-small-content tracking-wide">
                 <Fade duration={500} delay={150} distance="30px" fraction={0.4} bottom>
                     <li className="list-disc lg:text-justify tracking-wide">
                         💼 Right now, I’m working as a frontend developer in a new startup in my hometown, but still open for a better opportunity to work with and learn from more professional and skillful developers.
@@ -45,7 +45,7 @@ const About = () => (
             <div className="lg:w-2/5 text-center mt-5 lg:mt-0">
                 <Button
                     link="https://drive.google.com/file/d/1Gcd8guXjFAtYstrqtcW840JUkhTsAaUi/view?usp=sharing"
-                    color="bg-gray-900 text-gray-100 hover:bg-gray-800"
+                    color="bg-content text-background hover:bg-content-hover hover:text-background-hover"
                     className="mx-auto"
                 >
                     Curriculum Vitae
@@ -53,7 +53,7 @@ const About = () => (
 
                 <Button
                     link="https://drive.google.com/drive/folders/1usHryLtaQ9slPXANH_drMIiN9RH-mEWR?usp=sharing"
-                    color="bg-gray-100 text-gray-900 hover:bg-gray-200"
+                    color="bg-background text-content hover:bg-background-hover hover:text-content-hover"
                     className="mt-4 mx-auto"
                 >
                     Design Portfolio
