@@ -3,11 +3,11 @@ const Board = props => (
         <div className="flex w-48 justify-between m-2.5">
             <div className="score__item">
                 <p className="font-architect font-semibold text-content">X : {props.xScore}</p>
-                <span className={!props.circleTurn ? 'lg:hidden font-architect font-semibold text-content' : 'hidden'}>Turn</span>
+                <span className={!props.circleTurn ? 'lg:hidden font-architect text-content' : 'hidden'}>Turn</span>
             </div>
             <div className="score__item">
                 <p className="font-architect font-semibold text-content">O : {props.oScore}</p>
-                <span className={props.circleTurn ? 'lg:hidden font-architect font-semibold text-content' : 'hidden'}>Turn</span>
+                <span className={props.circleTurn ? 'lg:hidden font-architect text-content' : 'hidden'}>Turn</span>
             </div>
         </div>
 

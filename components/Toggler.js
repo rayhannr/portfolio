@@ -1,9 +1,10 @@
-import React, { useContext, useState, useEffect, useCallback } from 'react'
-import Toggle from 'react-toggle'
+import React, { useContext, useState, useEffect, useCallback, useRef } from 'react'
 
 import { ThemeContext } from '../context/theme-context'
 
 const Toggler = () => {
+    const checkRef = useRef(null)
+    const theme = useContext(ThemeContext)
     const [navVisible, setNavVisible] = useState(true)
     const [prevScrollPos, setPrevScrollPos] = useState(typeof window !== 'undefined' && window.pageYOffset)
 
@@ -19,24 +20,31 @@ const Toggler = () => {
     }, [prevScrollPos])
 
     useEffect(() => {
-        if(typeof window !== 'undefined'){
+        if (typeof window !== 'undefined') {
             window.addEventListener('scroll', handleScroll)
             return () => window.removeEventListener('scroll', handleScroll)
         }
     }, [handleScroll])
 
-    const theme = useContext(ThemeContext)
-
     return (
         <div className="toggle-button transition ease-in duration-200" style={{ transform: !navVisible && 'translateY(-150px)' }}>
-            <Toggle 
-                className="react-toggle"
-                checked={theme.isDark} 
-                onChange={theme.themeChanger}
-                icons={{
-                    checked: "🌜",
-                    unchecked: "🌞"
-                }} />
+            <div 
+                className={`toggle ${theme.isDark ? 'checked' : ''}`}
+                onClick={() => {
+                    checkRef.current.click()
+                }}>
+                <div className="road">
+                    <div className="road-check">🌜</div>
+                    <div className="road-x">🌞</div>
+                </div>
+                <div className="round"></div>
+                <input
+                    type="checkbox"
+                    className="hidden-input"
+                    ref={checkRef}
+                    onChange={theme.themeChanger}
+                    checked={theme.isDark} />
+            </div>
         </div>
     )
 }

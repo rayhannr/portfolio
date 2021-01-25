@@ -45,12 +45,12 @@ export const useTheme = () => {
 
     useEffect(() => {
         const appliedTheme = localStorage.getItem('theme')
-        if(appliedTheme && appliedTheme === 'light'){
-            setTheme('light')
-            setCSSVariables(appThemes.light)
-        } else {
+        if(appliedTheme && appliedTheme === 'dark'){
             setTheme('dark')
             setCSSVariables(appThemes.dark)
+        } else {
+            setTheme('light')
+            setCSSVariables(appThemes.light)
         }
     }, [])
 
