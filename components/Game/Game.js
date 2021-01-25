@@ -200,7 +200,7 @@ const Game = () => {
       <WinningMessage
         show={showWinningMessage}
         draw={isDraw}
-        circleTurn={circleTurn}
+        winner={winner}
         restart={restartGame} />
     </div>
   )

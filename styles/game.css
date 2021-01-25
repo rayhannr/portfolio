@@ -130,19 +130,10 @@
 .winning-message button {
   font-size: 12px;
   font-family: Architects Daughter;
-  background-color: var(--contentColor);
-  color: var(--backgroundColor);
-  border: 1px solid var(--contentColor);
   border-radius: 20px;
   padding: 0.65em;
   cursor: pointer;
   margin-top: 10px;
-}
-
-.winning-message button:hover {
-  background-color: rgb(31, 41, 55);
-  border-color: rgb(31, 41, 55);
-  color: var(--backgroundColor);
 }
 
 .svg{

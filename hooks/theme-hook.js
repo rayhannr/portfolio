@@ -8,7 +8,8 @@ const appThemes = {
         contentHoverColor: '#E5E7EB',
         backgroundHoverColor: '#1F2937',
         smallTextColor: '#D1D5DB',
-        hoverColor: 'rgba(196, 196, 196, 0.774)'
+        hoverColor: 'rgba(196, 196, 196, 0.774)',
+        winningMessageColor: 'rgba(85, 73, 73, 0.767)'
     },
     light: {
         backgroundColor: "#f3f4f6",
@@ -17,7 +18,8 @@ const appThemes = {
         contentHoverColor: '#1F2937',
         backgroundHoverColor: '#E5E7EB',
         smallTextColor: '#4b5563',
-        hoverColor: 'rgb(107, 114, 148)'
+        hoverColor: 'rgb(107, 114, 148)',
+        winningMessageColor: 'rgba(221, 239, 235, .9)'
     }
 }
 
