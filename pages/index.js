@@ -16,7 +16,7 @@ export default function Home() {
       <Head>
         <title>Rayhan Naufal Ramadhan - Portfolio</title>
         <link rel="icon" href="/R.png" />
-        <meta name="theme-color" content={isDark ? '#111827' : '#f3f4f6'} />
+        <meta name="theme-color" content={isDark ? '#0f1116' : '#f3f4f6'} />
       </Head>
       <Toggler />
       <div className="all">
