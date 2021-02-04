@@ -74,7 +74,7 @@ export const projectItems = [
     ),
     new ProjectItem(
         'TypeSoFast!',
-        "A 10fastfingers clone for you to test your typing speed in Indonesian built in React and Typescript. I built this for fun and to implement for what I learned about Typescript and its integration with React.",
+        "A 10fastfingers clone for you to test your typing speed in Indonesian built in React and Typescript. I built this to implement what I learned about Typescript and its integration with React.",
         'February 2021',
         'project7.jpg',
         ['React', 'Typescript', 'Tailwind'],
