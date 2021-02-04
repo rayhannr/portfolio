@@ -575,6 +575,10 @@ svg {
   line-height: 2.25rem;
 }
 
+.leading-6 {
+  line-height: 1.5rem;
+}
+
 .list-disc {
   list-style-type: disc;
 }

@@ -49,7 +49,7 @@ export const projectItems = [
         'project3.jpg',
         ['React', 'CSS'],
         true,
-        'https://rayhannr.github.io/tic-tac-cok',
+        'https://tic-tac-cok.vercel.app',
         'https://github.com/rayhannr/tic-tac-cok'
     ),
     new ProjectItem(
@@ -71,5 +71,15 @@ export const projectItems = [
         true,
         'http://periode2.kkn-ppm.id/',
         null
+    ),
+    new ProjectItem(
+        'TypeSoFast!',
+        "A 10fastfingers clone for you to test your typing speed in Indonesian built in React and Typescript. I built this for fun and to implement for what I learned about Typescript and its integration with React.",
+        'February 2021',
+        'project7.jpg',
+        ['React', 'Typescript', 'Tailwind'],
+        false,
+        'https://typesofast.netlify.app',
+        'https://github.com/rayhannr/type-so-fast'
     )
 ]

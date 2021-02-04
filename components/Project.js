@@ -21,7 +21,7 @@ const Project = props => (
             <div className={`mt-2 md:mt-0 ${props.isReversed ? 'md:order-1' : 'md:order-2'}`}>
                 <h1 className="font-bold text-xl md:text-2xl text-content tracking-wide">{props.title}</h1>
                 <h6 className="text-sm text-gray-400 tracking-wide mt-1">{props.date}</h6>
-                <p className="text-small-content tracking-wide mt-3">{props.description}</p>
+                <p className="text-small-content tracking-wide mt-3 leading-6">{props.description}</p>
                 <div className="flex flex-row flex-wrap justify-start items-center -mt-1">
                     {props.tools.map(tool => (
                         <Badge key={tool}>{tool}</Badge>
