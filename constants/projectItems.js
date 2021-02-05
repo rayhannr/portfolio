@@ -73,12 +73,22 @@ export const projectItems = [
         null
     ),
     new ProjectItem(
+        'Portfolio',
+        "Well, it's literally this website you're visiting. I just include it in the list to tell people that I use these tools I mention below to develop it.",
+        'January 2021',
+        'project8.jpg',
+        ['Next', 'Tailwind'],
+        false,
+        'https://rayhannr.vercel.app',
+        'https://github.com/rayhannr/portfolio'
+    ),
+    new ProjectItem(
         'TypeSoFast!',
         "A 10fastfingers clone for you to test your typing speed in Indonesian built in React and Typescript. I built this to implement what I learned about Typescript and its integration with React.",
         'February 2021',
         'project7.jpg',
         ['React', 'Typescript', 'Tailwind'],
-        false,
+        true,
         'https://typesofast.netlify.app',
         'https://github.com/rayhannr/type-so-fast'
     )
