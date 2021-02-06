@@ -47,7 +47,7 @@ export const projectItems = [
         "Tic-tac-toe game rebuilt from a vanilla HTML + CSS + JS project by Kyle Cook of Web Dev Simplified to React with additional features such as dark and light mode, undo one move, restart game, and reset score.",
         'January 2020',
         'project3.jpg',
-        ['React', 'CSS'],
+        ['React', 'CSS', 'Vercel'],
         true,
         'https://tic-tac-cok.vercel.app',
         'https://github.com/rayhannr/tic-tac-cok'
