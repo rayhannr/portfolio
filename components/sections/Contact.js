@@ -24,7 +24,7 @@ const Contact = () => {
                         <p className="text-content font-medium tracking-wide mb-2">Social networks</p>
                         <div className="flex flex-row">
                             <a href="https://github.com/rayhannr" target="_blank">{githubIcon}</a>
-                            <a href="https://www.linkedin.com/in/rayhantu/" target="_blank">{linkedinIcon}</a>
+                            <a href="https://www.linkedin.com/in/rayhannr/" target="_blank">{linkedinIcon}</a>
                         </div>
                     </div>
                 </div>
