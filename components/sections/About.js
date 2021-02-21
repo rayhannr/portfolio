@@ -9,9 +9,9 @@ const About = () => (
             <Fade duration={500} distance="30px" fraction={0.4} bottom>
                 <Title>About me</Title>
                 <p className="text-small-content mt-5 lg:text-justify tracking-wide">
-                    I am a final year Computer Science student at Gadjah Mada University (UGM) and React.js enthusiast
-                    with two years of experience in frontend development. I continuously learn new things about web
-                    development and actively build a couple of projects by myself or with other developers.
+                Final year Computer Science student at Universitas Gadjah Mada and frontend developer proficient in React, 
+                CSS, Tailwind, Javascript, and Typescript with 2 years of experience. I continuously learn new things 
+                about web development and actively build a couple of projects by myself or with other developers.
             </p>
             </Fade>
 
@@ -44,7 +44,7 @@ const About = () => (
         <Fade duration={500} delay={300} distance="30px" fraction={0.4} bottom>
             <div className="lg:w-2/5 text-center mt-5 lg:mt-0">
                 <Button
-                    link="https://drive.google.com/file/d/1f3CFk9eVOwO0DY6rmqTppwdkvqBBiLAl/view?usp=sharing"
+                    link="https://drive.google.com/file/d/1o_b6Hitkxi8yl6pYk-sjQX-Iqe4NI7ma/view?usp=sharing"
                     color="bg-content text-background hover:bg-content-hover hover:text-background-hover"
                     className="mx-auto"
                 >
