@@ -44,7 +44,7 @@ const About = () => (
         <Fade duration={500} delay={300} distance="30px" fraction={0.4} bottom>
             <div className="lg:w-2/5 text-center mt-5 lg:mt-0">
                 <Button
-                    link="https://drive.google.com/file/d/1o_b6Hitkxi8yl6pYk-sjQX-Iqe4NI7ma/view?usp=sharing"
+                    link="https://drive.google.com/file/d/1GN64EziLEKftz69tJFUydzE46pmNweyF/view?usp=sharing"
                     color="bg-content text-background hover:bg-content-hover hover:text-background-hover"
                     className="mx-auto"
                 >
