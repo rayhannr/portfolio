@@ -85,7 +85,7 @@ export const projectItems = [
     ),
     new ProjectItem(
         'SVG Reader',
-        "A simple web app that let users to upload SVG file then preview and read it as HTML or JSX.",
+        "A simple SVG reader that easily read, preview, and convert the SVG file uploaded by the user to JSX.",
         'February 2021',
         'project9.jpg',
         ['React', 'Typescript', 'Tailwind', 'Netlify'],
