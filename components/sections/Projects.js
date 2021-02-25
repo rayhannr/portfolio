@@ -1,7 +1,6 @@
 import Fade from 'react-reveal/Fade'
 import Title from "../Title"
 import Project from '../Project'
-import ButtonLink from '../ButtonLink'
 import { projectItems } from '../../constants/projectItems'
 
 const Projects = () => (
@@ -10,7 +9,7 @@ const Projects = () => (
             <Title>Projects</Title>
         </Fade>
         <div className="-mt-3 md:-mt-12">
-            {projectItems.map(item => (
+            {projectItems.map((item, index) => (
                 <Project
                     key={item.title}
                     title={item.title}
@@ -18,7 +17,7 @@ const Projects = () => (
                     date={item.date}
                     image={item.image}
                     tools={item.tools}
-                    isReversed={item.isReversed}
+                    isReversed={index % 2 === 1}
                     githubLink={item.githubLink}
                     projectLink={item.projectLink} />
             ))}

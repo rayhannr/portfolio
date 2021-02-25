@@ -1,11 +1,10 @@
 class ProjectItem {
-    constructor(title, description, date, image, tools, isReversed, projectLink, githubLink) {
+    constructor(title, description, date, image, tools, projectLink, githubLink) {
         this.title = title
         this.description = description
         this.date = date
         this.image = image
         this.tools = tools
-        this.isReversed = isReversed
         this.projectLink = projectLink
         this.githubLink = githubLink
     }
@@ -18,7 +17,6 @@ export const projectItems = [
         'November 2018',
         'project1.jpg',
         ['HTML', 'CSS', 'JavaScript', 'jQuery', 'Bootstrap'],
-        false,
         'https://rayhannr.github.io/converthings',
         'https://github.com/rayhannr/converthings'
     ),
@@ -28,7 +26,6 @@ export const projectItems = [
         'January - February 2019',
         'project2.jpg',
         ['Wordpress', 'CSS'],
-        true,
         'https://bem.feb.ugm.ac.id',
         null
     ),
@@ -38,7 +35,6 @@ export const projectItems = [
         'May - July 2019',
         'project6.jpg',
         ['Wordpress', 'CSS'],
-        false,
         'https://summercourse.fkg.ugm.ac.id/',
         null
     ),
@@ -48,7 +44,6 @@ export const projectItems = [
         'January 2020',
         'project3.jpg',
         ['React', 'CSS', 'Vercel'],
-        true,
         'https://tic-tac-cok.vercel.app',
         'https://github.com/rayhannr/tic-tac-cok'
     ),
@@ -58,7 +53,6 @@ export const projectItems = [
         'March - July 2020',
         'project4.jpg',
         ['React', 'Tailwind', 'Redux', 'Rest API','Netlify'],
-        false,
         'https://pedulicorona.site',
         'https://github.com/alfanadhya/Supply-Demand-RC19'
     ),
@@ -68,7 +62,6 @@ export const projectItems = [
         'June - August 2020',
         'project5.jpg',
         ['Bootstrap', 'Sass', 'JS', 'CodeIgniter'],
-        true,
         'http://periode2.kkn-ppm.id/',
         null
     ),
@@ -78,7 +71,6 @@ export const projectItems = [
         'January 2021',
         'project8.jpg',
         ['Next', 'Tailwind', 'Vercel'],
-        false,
         'https://rayhannr.vercel.app',
         'https://github.com/rayhannr/portfolio'
     ),
@@ -88,8 +80,16 @@ export const projectItems = [
         'February 2021',
         'project7.jpg',
         ['React', 'Typescript', 'Tailwind', 'Netlify'],
-        true,
         'https://typesofast.netlify.app',
         'https://github.com/rayhannr/type-so-fast'
+    ),
+    new ProjectItem(
+        'SVG Reader',
+        "A simple web app that let users to upload SVG file then preview and read it as HTML or JSX.",
+        'February 2021',
+        'project9.jpg',
+        ['React', 'Typescript', 'Tailwind', 'Netlify'],
+        'https://svg-reader.netlify.app',
+        'https://github.com/rayhannr/svg-reader'
     )
 ]
