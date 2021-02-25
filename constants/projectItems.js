@@ -89,7 +89,7 @@ export const projectItems = [
         'February 2021',
         'project9.jpg',
         ['React', 'Typescript', 'Tailwind', 'Netlify'],
-        'https://svg-reader.netlify.app',
+        'https://svgreader.netlify.app',
         'https://github.com/rayhannr/svg-reader'
     )
 ]
